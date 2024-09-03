@@ -1,0 +1,105 @@
+/* ContactUs.css */
+
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.contact-us-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.contact-us-description {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #666;
+  text-align: center;
+  max-width: 600px;
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.input-field,
+.textarea-field {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus,
+.textarea-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.textarea-field {
+  height: 150px;
+  resize: none;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.contact-info-item i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info-item {
+    margin-bottom: 20px;
+  }
+}

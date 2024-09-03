@@ -1,0 +1,62 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.services,
+.about-us,
+.contact-us {
+  padding: 20px;
+}
+
+.service-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-item {
+  width: 30%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us input,
+.contact-us textarea {
+  width: 50%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.contact-us button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-us button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-top: 20px;
+}
